@@ -38,11 +38,19 @@ body {
 .menu-opcoes ul li {
     display: inline;
     margin-left: 20px;
-
 }
 
 .menu-opcoes a {
     color: #003366;
+}
+
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+
+.menu-opcoes a:active {
+    color: #7CFC00;
 }
 
 .busca, .menu-departamentos {
@@ -68,6 +76,24 @@ body {
     background-color: white;
     margin-bottom: 1px;
     padding: 5px 10px;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #DCDCDC;
+}
+
+
+.menu-departamentos li li a:before {
+    content: '- ';
 }
 
 .menu-departamentos a {
