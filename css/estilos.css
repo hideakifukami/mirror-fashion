@@ -2,9 +2,11 @@ body {
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
- header {
+
+header {
     position: relative;
- }
+    height: 85px;
+}
 
 .container {
     margin: 0 auto;
@@ -177,6 +179,7 @@ footer {
     background-image: url(../img/fundo-rodape.png);
     clear: both;
     padding: 20px 0;
+    height: 65px;
 }
 
 footer .container {
